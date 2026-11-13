@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece8e8;
+
+}.profile-card{
+    background-color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 25px;
+    width: 310px;
+    height: 400px;
+}
+img{
+    width:275px;
+    height: 160px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 23px;
+    font-weight: 100;
+}
+h4{
+    margin-top: 6px;
+    font-size: 16px;
+    color: #686666;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 15px;
+    color: #686666;
+    margin-bottom: 10px;
+}
+span.html{
+    background-color:#E8EEF8;;
+    color:  #405B82;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+span.css{
+   background-color:#E8EEF8;;
+    color:  #405B82;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+span.javascript{
+    background-color:#E8EEF8;;
+    color:  #405B82;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button{
+    margin-top: 15px;
+    height: 45px;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    background-color: #4868A0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.button:hover {
+    background-color: #354F7D;
+}
